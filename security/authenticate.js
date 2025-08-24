@@ -5,5 +5,5 @@ export default function verifyAuthenticate(request, answer, next) {
         answer.redirect('/login.html');
     }
 }
-
+ 
 

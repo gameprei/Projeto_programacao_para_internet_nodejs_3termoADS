@@ -38,7 +38,7 @@ app.get("/logout", (request, answer) => {
 });
 
 app.use(express.static('public'));
-
+ 
 app.use('/private', verifyAuthenticate, express.static('private'));
 
 app.listen(PORT, HOST, () => {

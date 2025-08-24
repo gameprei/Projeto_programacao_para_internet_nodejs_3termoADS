@@ -1,0 +1,26 @@
+{
+  "name": "projeto_programacao_para_internet_nodejs_3termoads",
+  "version": "1.0.0",
+  "description": "NodeJS / HTTP / FullStack / Frontend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gameprei/Projeto_programacao_para_internet_nodejs_3termoADS.git"
+  },
+  "author": "Luiz Henrique Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gameprei/Projeto_programacao_para_internet_nodejs_3termoADS/issues"
+  },
+  "homepage": "https://github.com/gameprei/Projeto_programacao_para_internet_nodejs_3termoADS#readme",
+  "dependencies": {
+    "bootstrap-icons": "^1.13.1",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2"
+  }
+}

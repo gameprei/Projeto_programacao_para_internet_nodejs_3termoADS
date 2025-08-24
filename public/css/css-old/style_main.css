@@ -1,0 +1,387 @@
+/* style_home.css */
+.course-card {
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: 15px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* style_home.css */
+.course-card .btn-secondary {
+  padding: 8px 16px;
+  background-color: #555;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+/* style_home.css */
+.course-card .btn-secondary:hover {
+  background-color: #444;
+}
+
+/* style_home.css */
+.course-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* style_home.css */
+.course-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+/* style_home.css */
+.course-card p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+/* style_details.css */
+.course-container {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+/* style_details.css */
+.course-image img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
+}
+
+/* style_details.css */
+.course-info {
+  max-width: 600px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* style_details.css */
+.course-info h1 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+/* style_home.css */
+.course-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* style_details.css */
+.course-meta {
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+/* style_details.css */
+.course-meta li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* style_home.css */
+.courses h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+/* style_details.css */
+.description {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+/* style.css */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* style.css */
+.form-group input {
+  width: 94%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* style.css */
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* style_home.css */
+.hero .btn-primary {
+  padding: 10px 20px;
+  background-color: #ff5733;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+/* style_home.css */
+.hero .btn-primary:hover {
+  background-color: #e14a2a;
+}
+
+/* style_home.css */
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+/* style_home.css */
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* style.css */
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* style.css */
+.login-button:hover {
+  background-color: #45a049;
+}
+
+/* style.css */
+.login-container {
+  background-color: #fff;
+  padding: 30px 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 350px;
+}
+
+/* style.css */
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+/* style.css */
+.login-container h4 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #666;
+  font-weight: normal;
+}
+
+/* style_details.css */
+.reservation {
+  margin-top: 30px;
+}
+
+/* style_details.css */
+.reservation .btn-primary {
+  padding: 10px 20px;
+  background-color: #ff5733;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: none;
+}
+
+/* style_details.css */
+.reservation .btn-primary:hover {
+  background-color: #e14a2a;
+}
+
+/* style_details.css */
+.reservation h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+/* style_details.css */
+.reservation input[type="number"] {
+  width: 60px;
+  padding: 5px;
+  font-size: 1rem;
+  margin-right: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* style_details.css */
+.reservation label {
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+/* style_details.css */
+.reservation p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* style_home.css, style_details.css */
+/* Estilos globais */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+/* style_home.css, style_details.css */
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* style_home.css, style_details.css */
+/* Header */
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem 0;
+}
+
+/* style_home.css */
+/* Hero Section */
+.hero {
+  background: url('https://via.placeholder.com/1920x600') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+/* style_home.css, style_details.css */
+/* Reset básico para garantir que a página tenha uma base limpa */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* style_details.css */
+/* Section Course Details */
+.course-details {
+  padding: 50px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* style_home.css */
+/* Section Courses */
+.courses {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+/* style_home.css, style_details.css */
+footer .footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* style_home.css, style_details.css */
+footer .social {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* style_home.css, style_details.css */
+footer .social li {
+  margin: 0 15px;
+}
+
+/* style_home.css, style_details.css */
+footer .social li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+/* style_home.css, style_details.css */
+footer .social li a:hover {
+  color: #ff5733;
+}
+
+/* style_home.css, style_details.css */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* style_home.css, style_details.css */
+nav .logo a {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* style_home.css, style_details.css */
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+/* style_home.css, style_details.css */
+nav ul li {
+  margin-left: 20px;
+}
+
+/* style_home.css, style_details.css */
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+/* style.css */
+.body_login {
+  font-family: Arial, sans-serif;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  background-image: url(/assets/city-bg.jpg);
+  background-color: #f0f2f5;
+  background-size: cover;
+  background-position: center;
+}
+
